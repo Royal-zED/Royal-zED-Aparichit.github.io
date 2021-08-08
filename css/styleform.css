@@ -1,0 +1,127 @@
+*{
+    color: rgb(122, 228, 35);
+}
+body {
+  background: url("../img/WallpaperDog-10894791.jpg") center/cover no-repeat
+    fixed;
+}
+a {
+  font-size: 25px;
+  color: floralwhite;
+}
+a:visited {
+  color: blueviolet;
+}
+a:hover {
+  color:lawngreen;
+}
+.ihead{
+    padding-top: 0vh;
+    margin-bottom: 0vh;
+    font-family: 'Kirang Haerang', 'cursive';
+    font-size: 15vh;
+    color: rgb(250, 73, 3);
+}
+body {
+  font-family: 'Kirang Haerang', 'cursive';
+  color: antiquewhite;
+  font-size: 5vh;
+}
+
+input[type="text"],input[type="number"],
+select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 5vh;
+  
+  
+}
+
+input[type="submit"] {
+  background-color: royalblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+div.container {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: black;
+  padding: 20px;
+}
+
+.crime{
+    padding-top: 8vh;
+    padding-bottom: 0vh;
+    margin-bottom: 0vh;
+    color: red;
+}
+#crime{
+    color: black;
+    background-color: rgb(26, 226, 26);
+    margin-bottom: 3vh;
+    
+    font-family: 'Kirang Haerang', 'cursive';
+    ;
+}
+.docs{
+    color: red;
+}
+#fileup{
+    
+    font-size: 3vh;
+    margin-bottom: 5vh;
+    margin-left: 0vh;
+    
+}
+#fileuu{
+    padding: 1.5vh 4vh;
+}
+
+#gend{
+    color: red;
+    margin-bottom: 0vh;
+}
+.gender{
+    display: inline;
+    padding: 0vh;
+    margin-left: 10vh;
+    
+}
+.rr{
+    margin-right: 10vh;
+    
+}
+#yono{
+    display: block;
+    margin-top: 15vh;
+    padding: 2vh 8vh;
+    font-size: 3vh;
+    
+    
+    
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.ss{
+    color: rgb(196, 25, 159);
+}
+#audio2{
+  opacity: 1;
+  height: 2.5vh;
+  width: 40vh;
+  margin-left: 8vh;
+  
+  
+}

@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+a:visited{
+  color: blueviolet;
+}
+a:hover{
+  color: lawngreen;
+}
+a:link{
+  color: aliceblue;
+}
+.blood{
+  position: absolute;
+  top: .5vh;
+  right:0vw;
+  
+}
+.body1 {
+  
+  box-sizing: border-box;
+  background: 
+    url("../img/Main_background.jpg");
+  background-repeat: no-repeat;
+  background-size:  cover;
+  background-position:  center;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  
+}
+.head1 {
+  
+  display: flex;
+  flex-direction: column;
+  font-family: "Kirang Haerang", cursive;
+  color:mintcream;
+  text-align: center;
+  align-items: center;
+  padding-top: 50vh;
+  font-size: 2.5vw;
+  
+  height: calc(100vh-2rem);
+  width: 100vw;
+  /* background: url("../img/Blood_hand.png") top right no-repeat; */
+  
+}
+
+
+#name1{
+    color: rgb(148, 170, 173);
+}
+
+#name{
+  size: 2vw;
+}
+.link{
+    position: relative;
+    font-size: 2.5vw;
+    font-weight: bold;
+    
+    padding: 2rem 1rem;
+}
+#Button1{
+  size: 2vw;
+  cursor: pointer;
+
+
+}
+.body2{
+  background: url("../img/WallpaperDog-10894751.jpg");
+  background-size: cover;
+  
+}
+.head2{
+  color: antiquewhite;
+  margin-top: 5vh;
+  font-size: 8vw;
+  under
+}
+.paraxx{
+  color: white;
+  padding-right: 50%;
+  padding: left 1vh;;
+  padding-top: 4vh;
+}
+.red{
+  color: red;
+}
+.form1{
+  
+  padding-top: -5px;
+}
+#audioo{
+  display: block;
+    opacity: 0;
+    width: 30vh;
+    top: 0px;
+    
+}
+.bloody{
+  background-image: url("../img/Blood_hand_black.jpg");
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+}
+.skull{
+  display: inline-flex;
+
+}
+.skull{
+  animation: move 5s infinite;
+  position: fixed;
+  transition-property: opacity;
+  transition-duration: 1s;
+  
+}
+@keyframes move{
+  50%{
+    transform: translateX(170vh) rotate(180deg) scale(4);
+    
+  }
+  80%{
+    transform: translate(60vh, 55vh) rotate(360deg) scale(2);
+
+  }
+  
+}
+.skull:hover{
+  /* transition: opacity 0.3s linear 0s; */
+  /* opacity: 0.2; */
+  opacity: 0;
+  cursor: pointer;
+}

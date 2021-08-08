@@ -1,0 +1,59 @@
+a:visited{
+  color: blueviolet;
+}
+a:hover{
+  color: lawngreen;
+}
+a:link{
+  color: aliceblue;
+}
+.link22{
+    position: relative;
+    font-size: 2.5vw;
+    font-weight: bold;
+    
+    padding: .8rem 1rem;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.87);
+    color: rgb(147, 231, 10);
+}
+.iop{
+    font-family: 'Kirang Haerang', 'cursive';
+    font-size: 30px;
+    padding-right: 20vh;
+}
+.iox{
+    font-family: cursive;
+    color: rgb(226, 8, 8);
+    font-size: 15vh;
+    margin-top: 0vh;
+    margin-bottom: 1vh;
+}
+#butam{
+    
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+.butami{
+    font-size: 4vh;
+    padding: 1.8vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    margin: 0;
+    background-color: rgb(35, 196, 69);
+    border-radius: 15px;
+}
+button:hover{
+    cursor: pointer;
+    background: darkmagenta;
+}
+strong{
+    color: red;
+}
+.paro{
+    color: royalblue;
+}

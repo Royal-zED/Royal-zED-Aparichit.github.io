@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a:hover {
+    
+    color:lawngreen;
+    
+  
+}
+
+
+.end {
+  position: absolute;
+  background: url("../img/WallpaperDog-5569669.jpg") no-repeat fixed
+    center/cover;
+  height: 100vh;
+  width: 100vw;
+  color: lemonchiffon;
+  text-align: center;
+  opacity: 0.9;
+}
+
+
+.endpara1 {
+  margin-top: 45vh;
+  color: cornsilk;
+}
+#endpara {
+  margin-top: 8vh;
+  font-family: "Kirang Haerang", cursive;
+  font-size: 15vh;
+  color: chartreuse;
+}
+.gopi {
+    
+  
+  display: inline-flex;
+  
+  color: aqua;
+  margin-top: 1.3%;
+  margin-right: 91%;
+  
+  
+}
+a {
+  font-size: 25px;
+  
+}
+
